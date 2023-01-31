@@ -1,0 +1,84 @@
+body{
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+nav{
+    
+    display: flex;
+    background-color: beige;
+    justify-content: space-around;
+
+}
+
+.sec{
+    
+    display: flex;
+    gap: 10px;
+
+}
+.art{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 49%;
+    
+    
+    border: 2px solid black;
+   
+}
+
+header{
+
+    text-align: center;
+
+}
+
+footer{
+    text-align: center;
+    background-color: gainsboro;
+
+}
+
+p{
+    text-align: justify;
+    padding-left: 2px;
+}
+
+@media (max-width:500px){
+    /* css file  */
+    nav{
+    
+        display: flex;
+        flex-direction: column;
+        background-color: beige;
+        justify-content: space-around;
+        align-items: center;
+    
+    }
+
+    .sec{
+    
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    
+    }
+    .art{
+    
+        
+        width: 100%;
+        
+        
+      
+       
+    }
+  }
+
+  
